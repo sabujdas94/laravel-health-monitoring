@@ -58,7 +58,8 @@ return [
         'throttle_notifications_key' => 'health:latestNotificationSentAt:',
 
         'mail' => [
-            'to' => 'your@example.com',
+            'to' => 'sabuj@ajratech.com',
+            // 'to' => 'sabuj@ajratech.com,shafeul.boni@ajratech.com ',
 
             'from' => [
                 'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
