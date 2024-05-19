@@ -8,4 +8,4 @@ Artisan::command('inspire', function () {
 })->purpose('Display an inspiring quote')->hourly();
 
 Schedule::command(\Spatie\Health\Commands\RunHealthChecksCommand::class)
-    ->everyFiveMinutes();
+    ->everyMinute();
